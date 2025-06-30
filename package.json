@@ -1,12 +1,5 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   "homepage": "http://jo-ney.github.io/N8N-Email-Job-Apply",
->>>>>>> a94c45a (first commit)
-=======
-  "homepage": "http://jo-ney.github.io/N8N-Email-Job-Apply",
->>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
   "name": "gmail-input",
   "version": "0.1.0",
   "private": true,
@@ -24,19 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "eject": "react-scripts eject"
-=======
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
->>>>>>> a94c45a (first commit)
-=======
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
->>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
   },
   "eslintConfig": {
     "extends": [
@@ -58,14 +41,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     "gh-pages": "^6.3.0",
->>>>>>> a94c45a (first commit)
-=======
-    "gh-pages": "^6.3.0",
->>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   }
