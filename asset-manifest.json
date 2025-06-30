@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/N8N-Email-Job-Apply/static/css/main.3ee846a3.css",
+    "main.js": "/N8N-Email-Job-Apply/static/js/main.8b496fb7.js",
+    "index.html": "/N8N-Email-Job-Apply/index.html",
+    "main.3ee846a3.css.map": "/N8N-Email-Job-Apply/static/css/main.3ee846a3.css.map",
+    "main.8b496fb7.js.map": "/N8N-Email-Job-Apply/static/js/main.8b496fb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ee846a3.css",
+    "static/js/main.8b496fb7.js"
+  ]
+}
