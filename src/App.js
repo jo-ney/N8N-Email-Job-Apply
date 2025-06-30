@@ -10,7 +10,8 @@ function  App() {
     e.preventDefault();
 
     const confirm = window.confirm(`Submit this email?\n${gmail}`);
-    if (!confirm) return;
+    const password = window.prompt("Enter a password : ")
+    if (!confirm || password != 'Noob') return;
 
     try {
       const res = await fetch('https://n8n-email-job-apply-node-js.onrender.com/submit', {
