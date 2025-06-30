@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 function  App() {
   const [gmail, setGmail] = useState('');
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
@@ -39,6 +40,8 @@ function  App() {
 
 
 =======
+=======
+>>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
 
@@ -46,7 +49,12 @@ function  App() {
     e.preventDefault();
 
     const confirm = window.confirm(`Submit this email?\n${gmail}`);
+<<<<<<< HEAD
     if (!confirm) return;
+=======
+    const password = window.prompt("Enter a password : ")
+    if (!confirm || password != 'Noob') return;
+>>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
 
     try {
       const res = await fetch('https://n8n-email-job-apply-node-js.onrender.com/submit', {
@@ -75,7 +83,10 @@ function  App() {
   };
 
 
+<<<<<<< HEAD
 >>>>>>> a94c45a (first commit)
+=======
+>>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-800 p-4">
       <div className="bg-green-500 shadow-xl rounded-2xl p-8 w-full max-w-sm">
@@ -96,6 +107,7 @@ function  App() {
             Submit
           </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
           {submitted && (
             <p className="text-green-900 text-center mt-2">Gmail submitted successfully!</p>
           )}
@@ -103,6 +115,10 @@ function  App() {
           {message && (<p className="text-green-900 text-center mt-2">{message}</p>)}
 
 >>>>>>> a94c45a (first commit)
+=======
+          {message && (<p className="text-green-900 text-center mt-2">{message}</p>)}
+
+>>>>>>> 2d19d1ace4fb4fc4060049b38eda7b85d7109e7d
         </form>
       </div>
     </div>
